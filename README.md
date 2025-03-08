@@ -1,6 +1,6 @@
 *Hello, I'm Liam! Welcome to my GitHub profile.*
 
-In September 2025, I'll be studying a degree in Bsc Computer Science, where I hope to learn to build cool projects from the ground up. 
+In September 2025, I'll be studying a degree in BSc Computer Science, where I hope to learn to build cool projects from the ground up. 
 In preperation for my studies, I am actively learning the fundamentals of many programming languages, notably, JavaScript & Python.
 I'm hoping to produce 2-3 working projects on here before I start my degree in September.
 
