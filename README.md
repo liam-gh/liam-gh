@@ -90,7 +90,7 @@ I will sharpen my front-end skills by working on small projects that emphasize u
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=liamgh&layout=compact&v=9" />
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=liamgh&layout=compact&v=3" />
 </p>
 
 <!-- Line break image -->
