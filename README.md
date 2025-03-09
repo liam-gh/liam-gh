@@ -86,7 +86,11 @@ I will sharpen my front-end skills by working on small projects that emphasize u
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=liamgh&layout=compact&v=2" />
+   <img src="https://wakatime.com/badge/user/6ac9cfcf-d576-4976-9cf4-a817f0d3b587.svg" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=liamgh&layout=compact&v=9" />
 </p>
 
 <!-- Line break image -->
@@ -98,10 +102,14 @@ I will sharpen my front-end skills by working on small projects that emphasize u
 </p>
 
 <p align="center">
-    <a href="https://github.com/liam-gh" target="_blank"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" /></a>
-    <a href="mailto:liamghughes2002@gmail.com"><img src="https://img.shields.io/badge/Email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <a href="https://www.instagram.com/liamdidthat" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+    <a href="https://twitter.com/liamdidthat_" target="_blank"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" /></a>
     <a href="https://www.linkedin.com/in/liamgerardhughes" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="mailto:liamdidthatcontact@gmail.com"><img src="https://img.shields.io/badge/Email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
+
+
+
 
 <!-- Line break image -->
 <img src="https://raw.githubusercontent.com/AnderMendoza/AnderMendoza/main/assets/line-neon.gif" width="100%" />
