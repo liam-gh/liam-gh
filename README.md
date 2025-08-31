@@ -29,57 +29,6 @@ I’m actively preparing for university by diving deep into the fundamentals of 
 <!-- Line break image -->
 <img src="https://raw.githubusercontent.com/AnderMendoza/AnderMendoza/main/assets/line-neon.gif" width="100%" />
 
-<!-- 6-month plan heading and text -->
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWlwcmhvbTFmaW5ndHpidTl1NDVjM280MDEzbDU5a3R5dTdraGp1aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/b82haduYYCZyEsh1C5/giphy.gif" width="40" /> <strong>6 ᴍᴏɴᴛʜ ᴘʟᴀɴ  ⤵</strong>
-
-<!-- 6-Month Plan Content -->
-As of now, I am set to start university in six months' time. While I am still learning the fundamentals of programming, it’s important for me to cultivate a strategic plan that I can stick to moving forward. Being early in my journey, I’m not 100% set on one specific field within software engineering that I want to dedicate myself to for the rest of my life. However, I do know that it's something in the following areas:
-
-<br>
-
-<!-- Field Icons -->
-<p align="center">
-    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHRpZDBvdXk2Z3B5emJla2g2M3NkYzA0M3RydXFvemwzejl4aWI3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ksNc3DpgrXoVbfm55o/giphy.gif" width="2%" style="vertical-align: middle; margin-right: 5;" />
-    <b>ᴡᴇʙᴀᴘᴘ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ( + ᴅᴇꜱɪɢɴ )</b> 
-    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2tpa2ZicHpoeHZ6ZHhldW9mMnlzczF2ZW1jdGYzdG51bWsyOTlwbyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/3o3IJrFTTV6Vf8Mfgy/giphy.gif" width="2%" style="vertical-align: middle; margin-right: 5;" />
-    <b>ɢᴀᴍᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ( + ᴅᴇꜱɪɢɴ )</b>
-    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW5yYXVpZ29maHZleWJ4YXZjYjBwM3gwZWpqeTk4Ymd2anYyZjJ1bCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/Lrge8fr6HFydZqahbw/giphy.gif" width="2%" style="vertical-align: middle;" />
-    <b>ꜰʀᴏɴᴛ-ᴇɴᴅ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ</b>
-</p>
-
-<br>
-
-<!-- Explaining importance of exploration -->
-It's important that I explore each of these fields as well as gaining a fundamental understanding of computational concepts and theories. Computer Science is an interesting but very challenging subject so it's important that I take it slow and build projects that give me positive reinforcement. 
-
-<!-- More content for Web Development and Game Development -->
-  <img src ="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHRpZDBvdXk2Z3B5emJla2g2M3NkYzA0M3RydXFvemwzejl4aWI3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ksNc3DpgrXoVbfm55o/giphy.gif" width="2%" style="vertical-align: middle; margin-right: 5;" /> **ᴡᴇʙᴀᴘᴘ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ( + ᴅᴇꜱɪɢɴ )**  
-<img src="https://media.giphy.com/media/eMdL34YngtZhHl4lWQ/giphy.gif" width="2%"> ***Build interactive web apps:*** 
-<br>
-I will create dynamic and responsive web applications while focusing on UI/UX principles and best design practices.
-
-  <img src ="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
-<!-- Game Development Text -->
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2tpa2ZicHpoeHZ6ZHhldW9mMnlzczF2ZW1jdGYzdG51bWsyOTlwbyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/3o3IJrFTTV6Vf8Mfgy/giphy.gif" width="2%" style="vertical-align: middle; margin-right: 5;" /> **ɢᴀᴍᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ( + ᴅᴇꜱɪɢɴ )**  
-<img src="https://media.giphy.com/media/eMdL34YngtZhHl4lWQ/giphy.gif" width="2%"> ***Learn game mechanics and engines:***  
-I will experiment with Unity or Godot to build small games, understanding core mechanics, physics, and design elements.
-
-  <img src ="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
-<!-- Front-End Development Text -->
-   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW5yYXVpZ29maHZleWJ4YXZjYjBwM3gwZWpqeTk4Ymd2anYyZjJ1bCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/Lrge8fr6HFydZqahbw/giphy.gif" width="2%" style="vertical-align: middle;" />**ꜰʀᴏɴᴛ-ᴇɴᴅ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ**  
-<img src="https://media.giphy.com/media/eMdL34YngtZhHl4lWQ/giphy.gif" width="2%"> ***Master HTML, CSS, and JavaScript:*** 
-<br>
-I will sharpen my front-end skills by working on small projects that emphasize usability, performance, and responsiveness.
-
-  <img src ="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
-<!-- Line break image -->
-<img src="https://raw.githubusercontent.com/AnderMendoza/AnderMendoza/main/assets/line-neon.gif" width="100%" />
-
 <!-- WakaTime Stats -->
 <p align="center">
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm5uMzYyZnFzN2FnNWR5ZnB0MmQ4ZnJmcXB4MnFnbm0yNGh6ZnpjOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/AynUwd5uKhIevEWx54/giphy.gif" width="25" /> <strong>ᴡᴀᴋᴀᴛɪᴍᴇ ꜱᴛᴀᴛꜱ</strong> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm5uMzYyZnFzN2FnNWR5ZnB0MmQ4ZnJmcXB4MnFnbm0yNGh6ZnpjOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/AynUwd5uKhIevEWx54/giphy.gif" width="25" />
