@@ -9,9 +9,14 @@
 <p>
   <a href="https://croaker.dev">Check Out My Website!</a> </p>
 
+
+-------
+🧠 **Leetcode Stats**
+[![Leetcode Stats](https://leetcard.jacoblin.cool/liamgh)](https://leetcode.com/liamgh)
+
 -------
 
-📊 **My VSCode Stats**
+📊 **VSCode Stats**
 <!--START_SECTION:waka-->
 
 ```txt
