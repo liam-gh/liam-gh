@@ -10,11 +10,15 @@
 
 
 <!--START_SECTION:waka-->
-<p align="center"><sub>Last 7 days · 11 hrs 22 mins</sub></p>
+<div align="center">
 
-<p align="center"><samp>Python&nbsp;&nbsp;⬜⬜⬜⬜⬜⬜⬜⬛⬛⬛&nbsp;&nbsp;71.7% · 8 hrs 11 mins</samp></p>
-<p align="center"><samp>RGBDS Assembly&nbsp;&nbsp;⬜⬛⬛⬛⬛⬛⬛⬛⬛⬛&nbsp;&nbsp;5.7% · 39 mins</samp></p>
-<p align="center"><samp>JavaScript&nbsp;&nbsp;⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛&nbsp;&nbsp;1.3% · 8 mins</samp></p>
-<p align="center"><samp>HTML&nbsp;&nbsp;⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛&nbsp;&nbsp;1.1% · 7 mins</samp></p>
-<p align="center"><samp>Text&nbsp;&nbsp;⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛&nbsp;&nbsp;0.5% · 3 mins</samp></p>
+<sub>Last 7 days · 11 hrs 22 mins</sub><br><br>
+
+Python&nbsp;&nbsp;●●●●●●●○○○&nbsp;&nbsp;71.7%&nbsp;&nbsp;8 hrs 11 mins<br>
+RGBDS Assembly&nbsp;&nbsp;●○○○○○○○○○&nbsp;&nbsp;5.7%&nbsp;&nbsp;39 mins<br>
+JavaScript&nbsp;&nbsp;○○○○○○○○○○&nbsp;&nbsp;1.3%&nbsp;&nbsp;8 mins<br>
+HTML&nbsp;&nbsp;○○○○○○○○○○&nbsp;&nbsp;1.1%&nbsp;&nbsp;7 mins<br>
+Text&nbsp;&nbsp;○○○○○○○○○○&nbsp;&nbsp;0.5%&nbsp;&nbsp;3 mins<br>
+
+</div>
 <!--END_SECTION:waka-->
