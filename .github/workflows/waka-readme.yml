@@ -14,9 +14,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - name: Generate WakaTime stats
+      - name: Update README
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
         run: |
@@ -35,48 +35,53 @@ jobs:
               "https://wakatime.com/api/v1/users/current/stats/last_7_days",
               headers={
                   "Authorization": f"Basic {encoded_key}",
-                  "User-Agent": "github-wakatime-readme"
+                  "User-Agent": "liamgh-wakatime-readme"
               }
           )
 
           with urllib.request.urlopen(request) as response:
               stats = json.load(response)["data"]
 
-          ignored = {"YAML", "JSON", "TOML", "Markdown", "Other", "Binary"}
+          ignored_languages = {
+              "YAML",
+              "JSON",
+              "TOML",
+              "Markdown",
+              "Other",
+              "Binary"
+          }
 
           languages = [
               language
               for language in stats.get("languages", [])
-              if language["name"] not in ignored
+              if language["name"] not in ignored_languages
           ][:5]
 
-          rows = []
+          lines = []
 
           for language in languages:
-              percentage = float(language["percent"])
-              filled = round(percentage / 10)
-              blocks = "⬜" * filled + "⬛" * (10 - filled)
-
               name = html.escape(language["name"])
               time = html.escape(language["text"])
+              percentage = float(language["percent"])
 
-              rows.append(
-                  f"<p align=\"center\">"
-                  f"<samp>{name}&nbsp;&nbsp;{blocks}&nbsp;&nbsp;"
-                  f"{percentage:.1f}% · {time}</samp>"
-                  f"</p>"
+              filled = min(10, round(percentage / 10))
+              bar = "●" * filled + "○" * (10 - filled)
+
+              lines.append(
+                  f"{name}&nbsp;&nbsp;{bar}&nbsp;&nbsp;"
+                  f"{percentage:.1f}%&nbsp;&nbsp;{time}<br>"
               )
 
           total = html.escape(stats.get("human_readable_total", ""))
 
           generated = (
-              f"<p align=\"center\"><sub>Last 7 days · {total}</sub></p>\n\n"
-              + "\n".join(rows)
+              '<div align="center">\n\n'
+              f"<sub>Last 7 days · {total}</sub><br><br>\n\n"
+              + "\n".join(lines)
+              + "\n\n</div>"
           )
 
-          readme_path = "README.md"
-
-          with open(readme_path, "r", encoding="utf-8") as file:
+          with open("README.md", "r", encoding="utf-8") as file:
               readme = file.read()
 
           pattern = (
@@ -91,19 +96,25 @@ jobs:
               + "\n<!--END_SECTION:waka-->"
           )
 
-          updated_readme = re.sub(pattern, replacement, readme)
+          updated_readme, replacements = re.subn(
+              pattern,
+              replacement,
+              readme,
+              count=1
+          )
 
-          with open(readme_path, "w", encoding="utf-8") as file:
+          if replacements == 0:
+              raise RuntimeError("WakaTime section markers were not found in README.md")
+
+          with open("README.md", "w", encoding="utf-8") as file:
               file.write(updated_readme)
           PY
 
-      - name: Commit updated stats
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
           git diff --cached --quiet || git commit -m "chore: update WakaTime stats"
           git push
-
-
 
