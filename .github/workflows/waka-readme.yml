@@ -1,25 +1,109 @@
+
 name: Update WakaTime stats
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "30 0 * * *"
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
-    name: Update WakaTime stats
     runs-on: ubuntu-latest
 
     steps:
-      - uses: athul/waka-readme@master
-        with:
+      - uses: actions/checkout@v4
+
+      - name: Generate WakaTime stats
+        env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: false
-          TIME_RANGE: last_7_days
-          LANG_COUNT: 5
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          BLOCKS: "⣀⣄⣤⣦⣶⣷⣿"
-          CODE_LANG: txt
+        run: |
+          python <<'PY'
+          import base64
+          import html
+          import json
+          import os
+          import re
+          import urllib.request
+
+          api_key = os.environ["WAKATIME_API_KEY"]
+          encoded_key = base64.b64encode(api_key.encode()).decode()
+
+          request = urllib.request.Request(
+              "https://wakatime.com/api/v1/users/current/stats/last_7_days",
+              headers={
+                  "Authorization": f"Basic {encoded_key}",
+                  "User-Agent": "github-wakatime-readme"
+              }
+          )
+
+          with urllib.request.urlopen(request) as response:
+              stats = json.load(response)["data"]
+
+          ignored = {"YAML", "JSON", "TOML", "Markdown", "Other", "Binary"}
+
+          languages = [
+              language
+              for language in stats.get("languages", [])
+              if language["name"] not in ignored
+          ][:5]
+
+          rows = []
+
+          for language in languages:
+              percentage = float(language["percent"])
+              filled = round(percentage / 10)
+              blocks = "⬜" * filled + "⬛" * (10 - filled)
+
+              name = html.escape(language["name"])
+              time = html.escape(language["text"])
+
+              rows.append(
+                  f"<p align=\"center\">"
+                  f"<samp>{name}&nbsp;&nbsp;{blocks}&nbsp;&nbsp;"
+                  f"{percentage:.1f}% · {time}</samp>"
+                  f"</p>"
+              )
+
+          total = html.escape(stats.get("human_readable_total", ""))
+
+          generated = (
+              f"<p align=\"center\"><sub>Last 7 days · {total}</sub></p>\n\n"
+              + "\n".join(rows)
+          )
+
+          readme_path = "README.md"
+
+          with open(readme_path, "r", encoding="utf-8") as file:
+              readme = file.read()
+
+          pattern = (
+              r"<!--START_SECTION:waka-->"
+              r"[\s\S]*?"
+              r"<!--END_SECTION:waka-->"
+          )
+
+          replacement = (
+              "<!--START_SECTION:waka-->\n"
+              + generated
+              + "\n<!--END_SECTION:waka-->"
+          )
+
+          updated_readme = re.sub(pattern, replacement, readme)
+
+          with open(readme_path, "w", encoding="utf-8") as file:
+              file.write(updated_readme)
+          PY
+
+      - name: Commit updated stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update WakaTime stats"
+          git push
+
 
 
