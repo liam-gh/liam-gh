@@ -1,14 +1,17 @@
-<h1 align="center"> Hi, I'm Liam. </h1>
+<h1 align="center"> Hello! I'm Liam.👋 </h1>
 
-<h3 align="center"> Computer Science Student at the University of Kent. </h3>
+<h3> Computer Science Student at the University of Kent. </h3>
 
-<p align="center"> software applications, reverse engineering game binaries, low-level programming, and whatever else seems interesting. </p>
+<p> software applications, reverse engineering game binaries, low-level programming, and whatever else seems interesting. </p>
 
-<p align="center"> check out my repositories below. always down to collaborate on stuff - check my links over on the left. </p>
+<p> tech for good enthusiast. currently revamping my portfolio website with react. </p>
 
-<br>
+<p>
+  <a href="https://croaker.dev">Check Out My Website!</a> </p>
 
+-------
 
+📊 **My VSCode Stats**
 <!--START_SECTION:waka-->
 
 ```txt
