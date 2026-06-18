@@ -10,15 +10,18 @@
 
 
 <!--START_SECTION:waka-->
-<div align="center">
 
-<sub>Last 7 days · 11 hrs 22 mins</sub><br><br>
+```txt
+From: 08 March 2025 - To: 17 June 2026
 
-Python&nbsp;&nbsp;●●●●●●●○○○&nbsp;&nbsp;71.7%&nbsp;&nbsp;8 hrs 11 mins<br>
-RGBDS Assembly&nbsp;&nbsp;●○○○○○○○○○&nbsp;&nbsp;5.7%&nbsp;&nbsp;39 mins<br>
-JavaScript&nbsp;&nbsp;○○○○○○○○○○&nbsp;&nbsp;1.3%&nbsp;&nbsp;8 mins<br>
-HTML&nbsp;&nbsp;○○○○○○○○○○&nbsp;&nbsp;1.1%&nbsp;&nbsp;7 mins<br>
-Text&nbsp;&nbsp;○○○○○○○○○○&nbsp;&nbsp;0.5%&nbsp;&nbsp;3 mins<br>
+Total Time: 68 hrs 52 mins
 
-</div>
+Python                             22 hrs 31 mins        >>>>>>>>-----------------   32.64 %
+HTML                               12 hrs 34 mins        >>>>>--------------------   18.23 %
+TypeScript                         6 hrs 10 mins         >>-----------------------   08.94 %
+C#                                 6 hrs 2 mins          >>-----------------------   08.76 %
+JavaScript                         5 hrs 21 mins         >>-----------------------   07.76 %
+CSS                                5 hrs 12 mins         >>-----------------------   07.55 %
+```
+
 <!--END_SECTION:waka-->
