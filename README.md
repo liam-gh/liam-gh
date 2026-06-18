@@ -1,4 +1,4 @@
-<h1 align="center"> Hi, I'm Liam <img src="https://iam-weijie.github.io/wave/hand-emoji.svg" width="35" height="35" alt="Waving hand"> </h1>
+<h1 align="center"> Hi, I'm Liam. </h1>
 
 <h3 align="center"> <i>Computer Science student at the University of Kent and aspiring Software Engineer.</i> </h3>
 
