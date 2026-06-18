@@ -10,15 +10,11 @@
 
 
 <!--START_SECTION:waka-->
+<p align="center"><sub>Last 7 days · 11 hrs 22 mins</sub></p>
 
-```txt
-Total Time: 11 hrs 22 mins
-
-Python           8 hrs 11 mins         ██████████████████░░░░░░░   71.72 %
-Markdown         2 hrs 11 mins         ████▓░░░░░░░░░░░░░░░░░░░░   19.11 %
-RGBDS Assembly   39 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   05.73 %
-JavaScript       8 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.27 %
-HTML             7 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.06 %
-```
-
+<p align="center"><samp>Python&nbsp;&nbsp;⬜⬜⬜⬜⬜⬜⬜⬛⬛⬛&nbsp;&nbsp;71.7% · 8 hrs 11 mins</samp></p>
+<p align="center"><samp>RGBDS Assembly&nbsp;&nbsp;⬜⬛⬛⬛⬛⬛⬛⬛⬛⬛&nbsp;&nbsp;5.7% · 39 mins</samp></p>
+<p align="center"><samp>JavaScript&nbsp;&nbsp;⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛&nbsp;&nbsp;1.3% · 8 mins</samp></p>
+<p align="center"><samp>HTML&nbsp;&nbsp;⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛&nbsp;&nbsp;1.1% · 7 mins</samp></p>
+<p align="center"><samp>Text&nbsp;&nbsp;⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛&nbsp;&nbsp;0.5% · 3 mins</samp></p>
 <!--END_SECTION:waka-->
