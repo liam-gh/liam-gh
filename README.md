@@ -13,8 +13,6 @@
 
 <br>
 
-<h2 align="center">Activity:</h2>
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/wakatime?username=liamgh&layout=compact&langs_count=5&hide_title=true" alt="WakaTime stats">
 </p>
