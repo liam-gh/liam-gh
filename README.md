@@ -12,6 +12,7 @@
 
 -------
 🧠 **Leetcode Stats**
+
 [![Leetcode Stats](https://leetcard.jacoblin.cool/liamgh)](https://leetcode.com/liamgh)
 
 -------
