@@ -11,4 +11,15 @@
 <img src="https://github-readme-stats.vercel.app/api/wakatime?username=liamgh&layout=compact&langs_count=5&hide_title=true&hide_progress=true&hide_border=true&theme=transparent" alt="Weekly coding activity">
 
 <!--START_SECTION:waka-->
+
+```txt
+Total Time: 11 hrs 22 mins
+
+Python           8 hrs 11 mins         ██████████████████░░░░░░░   71.72 %
+Markdown         2 hrs 11 mins         ████▓░░░░░░░░░░░░░░░░░░░░   19.11 %
+RGBDS Assembly   39 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   05.73 %
+JavaScript       8 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.27 %
+HTML             7 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.06 %
+```
+
 <!--END_SECTION:waka-->
