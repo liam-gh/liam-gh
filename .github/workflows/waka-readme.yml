@@ -14,107 +14,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v5
-
-      - name: Update README
-        env:
+      - uses: athul/waka-readme@master
+        with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-        run: |
-          python <<'PY'
-          import base64
-          import html
-          import json
-          import os
-          import re
-          import urllib.request
-
-          api_key = os.environ["WAKATIME_API_KEY"]
-          encoded_key = base64.b64encode(api_key.encode()).decode()
-
-          request = urllib.request.Request(
-              "https://wakatime.com/api/v1/users/current/stats/last_7_days",
-              headers={
-                  "Authorization": f"Basic {encoded_key}",
-                  "User-Agent": "liamgh-wakatime-readme"
-              }
-          )
-
-          with urllib.request.urlopen(request) as response:
-              stats = json.load(response)["data"]
-
-          ignored_languages = {
-              "YAML",
-              "JSON",
-              "TOML",
-              "Markdown",
-              "Other",
-              "Binary"
-          }
-
-          languages = [
-              language
-              for language in stats.get("languages", [])
-              if language["name"] not in ignored_languages
-          ][:5]
-
-          lines = []
-
-          for language in languages:
-              name = html.escape(language["name"])
-              time = html.escape(language["text"])
-              percentage = float(language["percent"])
-
-              filled = min(10, round(percentage / 10))
-              bar = "●" * filled + "○" * (10 - filled)
-
-              lines.append(
-                  f"{name}&nbsp;&nbsp;{bar}&nbsp;&nbsp;"
-                  f"{percentage:.1f}%&nbsp;&nbsp;{time}<br>"
-              )
-
-          total = html.escape(stats.get("human_readable_total", ""))
-
-          generated = (
-              '<div align="center">\n\n'
-              f"<sub>Last 7 days · {total}</sub><br><br>\n\n"
-              + "\n".join(lines)
-              + "\n\n</div>"
-          )
-
-          with open("README.md", "r", encoding="utf-8") as file:
-              readme = file.read()
-
-          pattern = (
-              r"<!--START_SECTION:waka-->"
-              r"[\s\S]*?"
-              r"<!--END_SECTION:waka-->"
-          )
-
-          replacement = (
-              "<!--START_SECTION:waka-->\n"
-              + generated
-              + "\n<!--END_SECTION:waka-->"
-          )
-
-          updated_readme, replacements = re.subn(
-              pattern,
-              replacement,
-              readme,
-              count=1
-          )
-
-          if replacements == 0:
-              raise RuntimeError("WakaTime section markers were not found in README.md")
-
-          with open("README.md", "w", encoding="utf-8") as file:
-              file.write(updated_readme)
-          PY
-
-      - name: Commit changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --cached --quiet || git commit -m "chore: update WakaTime stats"
-          git push
+          TIME_RANGE: all_time
+          SHOW_TITLE: true
+          SHOW_TOTAL: true
+          SHOW_TIME: true
+          LANG_COUNT: 6
+          BLOCKS: "->"
+          CODE_LANG: txt
+          COMMIT_MESSAGE: "chore: update WakaTime stats"
 
