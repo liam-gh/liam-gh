@@ -1,11 +1,3 @@
-<h1> Hi, i'm Liam. </h1>
-<h2> <i> Computer Science student at University of Kent and aspiring Software Engineer. </i> </h2>
-<p> Qol software applications, reverse engineering game binaries, low-level programming, and whatever else seems interesting. </p>
-<p> Check out my repos below. always down to collaborate — my links are over on the left. </p>
-
-![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=liamgh&layout=compact)
-
-
 <h1 align="center"> Hi, I'm Liam <img src="https://iam-weijie.github.io/wave/hand-emoji.svg" width="35" height="35" alt="Waving hand"> </h1>
 
 <h3 align="center"> <i>Computer Science student at the University of Kent and aspiring Software Engineer.</i> </h3>
