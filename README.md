@@ -8,7 +8,6 @@
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=liamgh&layout=compact&langs_count=5&hide_title=true&hide_progress=true&hide_border=true&theme=transparent" alt="Weekly coding activity">
 
 <!--START_SECTION:waka-->
 
