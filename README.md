@@ -21,16 +21,16 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 08 March 2025 - To: 21 July 2026
+From: 08 March 2025 - To: 23 July 2026
 
-Total Time: 76 hrs
+Total Time: 76 hrs 27 mins
 
-Python                             22 hrs 35 mins        >>>>>>>------------------   29.66 %
-HTML                               13 hrs 26 mins        >>>>---------------------   17.66 %
-C#                                 10 hrs 39 mins        >>>>---------------------   14.00 %
-TypeScript                         6 hrs 10 mins         >>-----------------------   08.10 %
-CSS                                6 hrs 4 mins          >>-----------------------   07.97 %
-JavaScript                         5 hrs 57 mins         >>-----------------------   07.82 %
+Python                             22 hrs 35 mins        >>>>>>>------------------   29.50 %
+HTML                               13 hrs 35 mins        >>>>---------------------   17.74 %
+C#                                 10 hrs 39 mins        >>>----------------------   13.92 %
+JavaScript                         6 hrs 12 mins         >>-----------------------   08.11 %
+TypeScript                         6 hrs 9 mins          >>-----------------------   08.03 %
+CSS                                6 hrs 6 mins          >>-----------------------   07.98 %
 ```
 
 <!--END_SECTION:waka-->
