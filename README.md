@@ -7,7 +7,7 @@
 <p> tech for good enthusiast. currently revamping my portfolio website with react. </p>
 
 <p>
-  <a href="https://croaker.dev">Check Out My Website!</a> </p>
+  <a href="https://croaker.dev">Check Out My Website! (Old) </a> </p>
 
 
 -------
